@@ -1,0 +1,8 @@
+CheckCGsValidity.m
+Inputs
+LinkLocalizerMultiInput.m
+Results
+SDPMinimizerMultiInput.m
+SDPMinimizerRelaxedMultiInput.m
+TestFunctions.m
+TestMultiinputFunctions.m

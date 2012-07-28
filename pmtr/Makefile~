@@ -1,0 +1,7 @@
+PY:=python ../../Python/PreProcessMatlabUtilities.py 
+
+ORIG_DATA:=pmtr_links.one
+TARGET :=$(ORIG_DATA:.one=.txt)
+
+$(TARGET):$(ORIG_DATA)
+	$(PY) "PreProcessONELinkforMATLAB('$^','$@')"

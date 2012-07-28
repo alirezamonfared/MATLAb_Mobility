@@ -1,0 +1,368 @@
+#This is the full journey report starting at time 0
+#For every pair of vertices, the foremost and shortest journeys are displayed
+#Each edge is in the form (originNode[traversalTime]destinationNode)
+
+#This report is for the trace: null
+#Uploaded to DTNTES by: null
+#No link to the trace was provided
+
+Node 0 to node 1
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 0 to node 2
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 0 to node 3
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 0 to node 4
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 0 to node 5
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 0 to node 6
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 0 to node 7
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 0 to node 8
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 0 to node 9
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 1 to node 0
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 1 to node 2
+Foremost Journey: 1 [80] 8 [80] 2
+Shortest Journey: 1 [80] 8 [80] 2
+
+Node 1 to node 3
+Foremost Journey: 1 [80] 8 [80] 2 [140] 5 [140] 9 [481] 3
+Shortest Journey: 1 [184] 9 [481] 3
+
+Node 1 to node 4
+Foremost Journey: 1 [80] 8 [80] 2 [140] 5 [140] 9 [481] 3 [481] 4
+Shortest Journey: 1 [184] 9 [601] 4
+
+Node 1 to node 5
+Foremost Journey: 1 [80] 8 [80] 2 [140] 5
+Shortest Journey: 1 [877] 5
+
+Node 1 to node 6
+Foremost Journey: 1 [80] 8 [80] 2 [140] 5 [140] 6
+Shortest Journey: 1 [186] 6
+
+Node 1 to node 7
+Foremost Journey: 1 [80] 8 [147] 7
+Shortest Journey: 1 [80] 8 [147] 7
+
+Node 1 to node 8
+Foremost Journey: 1 [80] 8
+Shortest Journey: 1 [80] 8
+
+Node 1 to node 9
+Foremost Journey: 1 [80] 8 [80] 2 [140] 5 [140] 9
+Shortest Journey: 1 [184] 9
+
+Node 2 to node 0
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 2 to node 1
+Foremost Journey: 2 [66] 8 [80] 1
+Shortest Journey: 2 [66] 8 [80] 1
+
+Node 2 to node 3
+Foremost Journey: 2 [140] 5 [140] 9 [481] 3
+Shortest Journey: 2 [650] 3
+
+Node 2 to node 4
+Foremost Journey: 2 [140] 5 [140] 9 [481] 3 [481] 4
+Shortest Journey: 2 [784] 4
+
+Node 2 to node 5
+Foremost Journey: 2 [140] 5
+Shortest Journey: 2 [140] 5
+
+Node 2 to node 6
+Foremost Journey: 2 [140] 5 [140] 6
+Shortest Journey: 2 [140] 5 [140] 6
+
+Node 2 to node 7
+Foremost Journey: 2 [66] 8 [147] 7
+Shortest Journey: 2 [260] 7
+
+Node 2 to node 8
+Foremost Journey: 2 [66] 8
+Shortest Journey: 2 [66] 8
+
+Node 2 to node 9
+Foremost Journey: 2 [140] 5 [140] 9
+Shortest Journey: 2 [799] 9
+
+Node 3 to node 0
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 3 to node 1
+Foremost Journey: 3 [481] 9 [481] 1
+Shortest Journey: 3 [481] 9 [481] 1
+
+Node 3 to node 2
+Foremost Journey: 3 [481] 9 [481] 5 [481] 8 [481] 2
+Shortest Journey: 3 [650] 2
+
+Node 3 to node 4
+Foremost Journey: 3 [1] 4
+Shortest Journey: 3 [1] 4
+
+Node 3 to node 5
+Foremost Journey: 3 [481] 9 [481] 5
+Shortest Journey: 3 [758] 5
+
+Node 3 to node 6
+Foremost Journey: 3 [481] 9 [481] 6
+Shortest Journey: 3 [794] 6
+
+Node 3 to node 7
+Foremost Journey: 3 [481] 9 [481] 5 [481] 7
+Shortest Journey: 3 [527] 7
+
+Node 3 to node 8
+Foremost Journey: 3 [481] 9 [481] 5 [481] 8
+Shortest Journey: 3 [746] 8
+
+Node 3 to node 9
+Foremost Journey: 3 [481] 9
+Shortest Journey: 3 [481] 9
+
+Node 4 to node 0
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 4 to node 1
+Foremost Journey: 4 [1] 3 [481] 9 [481] 1
+Shortest Journey: 4 [601] 9 [601] 1
+
+Node 4 to node 2
+Foremost Journey: 4 [1] 3 [481] 9 [481] 5 [481] 8 [481] 2
+Shortest Journey: 4 [784] 2
+
+Node 4 to node 3
+Foremost Journey: 4 [1] 3
+Shortest Journey: 4 [1] 3
+
+Node 4 to node 5
+Foremost Journey: 4 [1] 3 [481] 9 [481] 5
+Shortest Journey: 4 [548] 5
+
+Node 4 to node 6
+Foremost Journey: 4 [1] 3 [481] 9 [481] 6
+Shortest Journey: 4 [778] 6
+
+Node 4 to node 7
+Foremost Journey: 4 [1] 3 [481] 9 [481] 5 [481] 7
+Shortest Journey: 4 [769] 7
+
+Node 4 to node 8
+Foremost Journey: 4 [1] 3 [481] 9 [481] 5 [481] 8
+Shortest Journey: 4 [784] 8
+
+Node 4 to node 9
+Foremost Journey: 4 [1] 3 [481] 9
+Shortest Journey: 4 [601] 9
+
+Node 5 to node 0
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 5 to node 1
+Foremost Journey: 5 [140] 2 [140] 8 [140] 1
+Shortest Journey: 5 [877] 1
+
+Node 5 to node 2
+Foremost Journey: 5 [140] 2
+Shortest Journey: 5 [140] 2
+
+Node 5 to node 3
+Foremost Journey: 5 [107] 9 [481] 3
+Shortest Journey: 5 [758] 3
+
+Node 5 to node 4
+Foremost Journey: 5 [107] 9 [481] 3 [481] 4
+Shortest Journey: 5 [548] 4
+
+Node 5 to node 6
+Foremost Journey: 5 [30] 6
+Shortest Journey: 5 [30] 6
+
+Node 5 to node 7
+Foremost Journey: 5 [140] 2 [140] 8 [147] 7
+Shortest Journey: 5 [317] 7
+
+Node 5 to node 8
+Foremost Journey: 5 [140] 2 [140] 8
+Shortest Journey: 5 [473] 8
+
+Node 5 to node 9
+Foremost Journey: 5 [107] 9
+Shortest Journey: 5 [107] 9
+
+Node 6 to node 0
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 6 to node 1
+Foremost Journey: 6 [30] 5 [140] 2 [140] 8 [140] 1
+Shortest Journey: 6 [186] 1
+
+Node 6 to node 2
+Foremost Journey: 6 [30] 5 [140] 2
+Shortest Journey: 6 [30] 5 [140] 2
+
+Node 6 to node 3
+Foremost Journey: 6 [30] 5 [107] 9 [481] 3
+Shortest Journey: 6 [794] 3
+
+Node 6 to node 4
+Foremost Journey: 6 [30] 5 [107] 9 [481] 3 [481] 4
+Shortest Journey: 6 [778] 4
+
+Node 6 to node 5
+Foremost Journey: 6 [30] 5
+Shortest Journey: 6 [30] 5
+
+Node 6 to node 7
+Foremost Journey: 6 [30] 5 [140] 2 [140] 8 [147] 7
+Shortest Journey: 6 [772] 7
+
+Node 6 to node 8
+Foremost Journey: 6 [30] 5 [140] 2 [140] 8
+Shortest Journey: 6 [568] 8
+
+Node 6 to node 9
+Foremost Journey: 6 [30] 5 [107] 9
+Shortest Journey: 6 [155] 9
+
+Node 7 to node 0
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 7 to node 1
+Foremost Journey: 7 [147] 8 [147] 1
+Shortest Journey: 7 [147] 8 [147] 1
+
+Node 7 to node 2
+Foremost Journey: 7 [147] 8 [147] 2
+Shortest Journey: 7 [260] 2
+
+Node 7 to node 3
+Foremost Journey: 7 [147] 8 [147] 2 [147] 5 [147] 9 [481] 3
+Shortest Journey: 7 [527] 3
+
+Node 7 to node 4
+Foremost Journey: 7 [147] 8 [147] 2 [147] 5 [147] 9 [481] 3 [481] 4
+Shortest Journey: 7 [769] 4
+
+Node 7 to node 5
+Foremost Journey: 7 [147] 8 [147] 2 [147] 5
+Shortest Journey: 7 [317] 5
+
+Node 7 to node 6
+Foremost Journey: 7 [147] 8 [147] 2 [147] 5 [147] 6
+Shortest Journey: 7 [772] 6
+
+Node 7 to node 8
+Foremost Journey: 7 [147] 8
+Shortest Journey: 7 [147] 8
+
+Node 7 to node 9
+Foremost Journey: 7 [147] 8 [147] 2 [147] 5 [147] 9
+Shortest Journey: 7 [888] 9
+
+Node 8 to node 0
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 8 to node 1
+Foremost Journey: 8 [80] 1
+Shortest Journey: 8 [80] 1
+
+Node 8 to node 2
+Foremost Journey: 8 [66] 2
+Shortest Journey: 8 [66] 2
+
+Node 8 to node 3
+Foremost Journey: 8 [66] 2 [140] 5 [140] 9 [481] 3
+Shortest Journey: 8 [746] 3
+
+Node 8 to node 4
+Foremost Journey: 8 [66] 2 [140] 5 [140] 9 [481] 3 [481] 4
+Shortest Journey: 8 [784] 4
+
+Node 8 to node 5
+Foremost Journey: 8 [66] 2 [140] 5
+Shortest Journey: 8 [473] 5
+
+Node 8 to node 6
+Foremost Journey: 8 [66] 2 [140] 5 [140] 6
+Shortest Journey: 8 [568] 6
+
+Node 8 to node 7
+Foremost Journey: 8 [147] 7
+Shortest Journey: 8 [147] 7
+
+Node 8 to node 9
+Foremost Journey: 8 [66] 2 [140] 5 [140] 9
+Shortest Journey: 8 [754] 9
+
+Node 9 to node 0
+Foremost Journey: Unreachable
+Shortest Journey: Unreachable
+
+Node 9 to node 1
+Foremost Journey: 9 [107] 5 [140] 2 [140] 8 [140] 1
+Shortest Journey: 9 [184] 1
+
+Node 9 to node 2
+Foremost Journey: 9 [107] 5 [140] 2
+Shortest Journey: 9 [799] 2
+
+Node 9 to node 3
+Foremost Journey: 9 [481] 3
+Shortest Journey: 9 [481] 3
+
+Node 9 to node 4
+Foremost Journey: 9 [481] 3 [481] 4
+Shortest Journey: 9 [601] 4
+
+Node 9 to node 5
+Foremost Journey: 9 [107] 5
+Shortest Journey: 9 [107] 5
+
+Node 9 to node 6
+Foremost Journey: 9 [107] 5 [107] 6
+Shortest Journey: 9 [155] 6
+
+Node 9 to node 7
+Foremost Journey: 9 [107] 5 [140] 2 [140] 8 [147] 7
+Shortest Journey: 9 [888] 7
+
+Node 9 to node 8
+Foremost Journey: 9 [107] 5 [140] 2 [140] 8
+Shortest Journey: 9 [754] 8
+

@@ -1,0 +1,5 @@
+function  X = MultiDimensionalScale(X, r);
+D = squareform(pdist(X'));
+X = mdscale(D, r);
+X = X';
+end

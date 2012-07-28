@@ -1,0 +1,447 @@
+#This is the journey stats report starting at time 0
+#For every pair of vertices, the earliest arrival date and minimum hopcount are displayed
+
+#This report is for the trace: null
+#Uploaded to DTNTES by: null
+#No link to the trace was provided
+
+Node 0 to node 1
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 0 to node 2
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 0 to node 3
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 0 to node 4
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 0 to node 5
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 0 to node 6
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 0 to node 7
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 0 to node 8
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 0 to node 9
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 0 to node 10
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 1 to node 0
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 1 to node 2
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 1 to node 3
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 1 to node 4
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 1 to node 5
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 1 to node 6
+Earliest Arrival Date: 242
+Minimum hopcount: 1
+
+Node 1 to node 7
+Earliest Arrival Date: 1
+Minimum hopcount: 1
+
+Node 1 to node 8
+Earliest Arrival Date: 1
+Minimum hopcount: 1
+
+Node 1 to node 9
+Earliest Arrival Date: 91
+Minimum hopcount: 1
+
+Node 1 to node 10
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 2 to node 0
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 2 to node 1
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 2 to node 3
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 2 to node 4
+Earliest Arrival Date: 167
+Minimum hopcount: 2
+
+Node 2 to node 5
+Earliest Arrival Date: 109
+Minimum hopcount: 1
+
+Node 2 to node 6
+Earliest Arrival Date: 1
+Minimum hopcount: 1
+
+Node 2 to node 7
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 2 to node 8
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 2 to node 9
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 2 to node 10
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 3 to node 0
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 3 to node 1
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 3 to node 2
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 3 to node 4
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 3 to node 5
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 3 to node 6
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 3 to node 7
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 3 to node 8
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 3 to node 9
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 3 to node 10
+Earliest Arrival Date: 1
+Minimum hopcount: 1
+
+Node 4 to node 0
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 4 to node 1
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 4 to node 2
+Earliest Arrival Date: 180
+Minimum hopcount: 2
+
+Node 4 to node 3
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 4 to node 5
+Earliest Arrival Date: 167
+Minimum hopcount: 1
+
+Node 4 to node 6
+Earliest Arrival Date: 242
+Minimum hopcount: 1
+
+Node 4 to node 7
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 4 to node 8
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 4 to node 9
+Earliest Arrival Date: 316
+Minimum hopcount: 1
+
+Node 4 to node 10
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 5 to node 0
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 5 to node 1
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 5 to node 2
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 5 to node 3
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 5 to node 4
+Earliest Arrival Date: 167
+Minimum hopcount: 1
+
+Node 5 to node 6
+Earliest Arrival Date: 109
+Minimum hopcount: 1
+
+Node 5 to node 7
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 5 to node 8
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 5 to node 9
+Earliest Arrival Date: 316
+Minimum hopcount: 1
+
+Node 5 to node 10
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 6 to node 0
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 6 to node 1
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 6 to node 2
+Earliest Arrival Date: 1
+Minimum hopcount: 1
+
+Node 6 to node 3
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 6 to node 4
+Earliest Arrival Date: 167
+Minimum hopcount: 1
+
+Node 6 to node 5
+Earliest Arrival Date: 109
+Minimum hopcount: 1
+
+Node 6 to node 7
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 6 to node 8
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 6 to node 9
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 6 to node 10
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 7 to node 0
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 7 to node 1
+Earliest Arrival Date: 1
+Minimum hopcount: 1
+
+Node 7 to node 2
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 7 to node 3
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 7 to node 4
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 7 to node 5
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 7 to node 6
+Earliest Arrival Date: 242
+Minimum hopcount: 1
+
+Node 7 to node 8
+Earliest Arrival Date: 1
+Minimum hopcount: 1
+
+Node 7 to node 9
+Earliest Arrival Date: 91
+Minimum hopcount: 1
+
+Node 7 to node 10
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 8 to node 0
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 8 to node 1
+Earliest Arrival Date: 1
+Minimum hopcount: 1
+
+Node 8 to node 2
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 8 to node 3
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 8 to node 4
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 8 to node 5
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 8 to node 6
+Earliest Arrival Date: 242
+Minimum hopcount: 1
+
+Node 8 to node 7
+Earliest Arrival Date: 1
+Minimum hopcount: 1
+
+Node 8 to node 9
+Earliest Arrival Date: 91
+Minimum hopcount: 2
+
+Node 8 to node 10
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 9 to node 0
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 9 to node 1
+Earliest Arrival Date: 91
+Minimum hopcount: 1
+
+Node 9 to node 2
+Earliest Arrival Date: 94
+Minimum hopcount: 1
+
+Node 9 to node 3
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 9 to node 4
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 9 to node 5
+Earliest Arrival Date: 180
+Minimum hopcount: 1
+
+Node 9 to node 6
+Earliest Arrival Date: 242
+Minimum hopcount: 1
+
+Node 9 to node 7
+Earliest Arrival Date: 91
+Minimum hopcount: 1
+
+Node 9 to node 8
+Earliest Arrival Date: 91
+Minimum hopcount: 2
+
+Node 9 to node 10
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 10 to node 0
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 10 to node 1
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 10 to node 2
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 10 to node 3
+Earliest Arrival Date: 1
+Minimum hopcount: 1
+
+Node 10 to node 4
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 10 to node 5
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 10 to node 6
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 10 to node 7
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 10 to node 8
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+
+Node 10 to node 9
+Earliest Arrival Date: Unreachable
+Minimum hopcount: Unreachable
+

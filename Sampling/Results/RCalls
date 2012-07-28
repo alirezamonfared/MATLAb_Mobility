@@ -1,0 +1,17 @@
+# Plots
+Rscript EvolvingGraphStatistics.R /home/alireza/workspace/MobilityProject/MATLAB/Sampling/Results/CSV4OriginalJourneys.txt 
+Rscript EvolvingGraphStatistics.R /home/alireza/workspace/MobilityProject/MATLAB/Sampling/Results/CSV4TrkSampledJourneys.txt 
+Rscript EvolvingGraphStatistics.R /home/alireza/workspace/MobilityProject/MATLAB/Sampling/Results/CSV4SPTSampledJourneys.txt
+Rscript EvolvingGraphStatistics.R /home/alireza/workspace/MobilityProject/MATLAB/Sampling/Results/CSV4JSampledJourneys.txt
+
+
+
+# Comparisons
+Rscript CompareDisrtibutions.R /home/alireza/workspace/MobilityProject/MATLAB/Sampling/Results/CSV4OriginalJourneys.txt /home/alireza/workspace/MobilityProject/MATLAB/Sampling/Results/CSV4TrkSampledJourneys.txt 
+
+Rscript CompareDisrtibutions.R /home/alireza/workspace/MobilityProject/MATLAB/Sampling/Results/CSV4OriginalJourneys.txt /home/alireza/workspace/MobilityProject/MATLAB/Sampling/Results/CSV4SPTSampledJourneys.txt
+
+Rscript CompareDisrtibutions.R /home/alireza/workspace/MobilityProject/MATLAB/Sampling/Results/CSV4OriginalJourneys.txt /home/alireza/workspace/MobilityProject/MATLAB/Sampling/Results/CSV4JSampledJourneys.txt
+
+
+

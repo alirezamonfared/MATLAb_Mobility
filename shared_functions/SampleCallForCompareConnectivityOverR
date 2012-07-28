@@ -1,0 +1,79 @@
+RVector=horzcat(5:10:95,96:104,105:10:150,200:50:600);
+CompareConnectivityOverR('/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Original.one','/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Inferred.one',RVector);
+
+% RWP Test
+RVector=horzcat(5:10:95,100,105:10:150,200:50:600);
+CompareOptimizationInferredConnectivityOverR('/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Original.one','Results',RVector);
+CompareOptimizationToTransformationOverR('./Results/CSV4OriginalBase.one','Results',RVector,100);
+AcceptableRangeForTransformationOverR('./Results/CSV4OriginalBase.one','Results',RVector,100);
+
+PlotEvolvingGraphCharachteristics('/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Original.one',100);
+
+% PMTR Test
+RVector=horzcat(5:2:30,30:10:100,200:50:600);
+ComparePmtrConnectivityOverR('./Inputs/pmtr_links.one','./Results/old/pmtr_inferred_movements.one',RVector);
+
+% RPGM Test
+RVector=horzcat(5:10:95,100,105:10:150,200:50:300);
+CompareOptimizationInferredConnectivityOverR('/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/RPGMScenario.one','Results2',RVector);
+CompareOptimizationToTransformationOverR('/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/RPGMScenario.one','Results2',RVector,100,220);
+AcceptableRangeForTransformationOverR('/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/RPGMScenario.one','Results2',RVector,100,220);
+
+
+% PMTR Test
+RVector=horzcat(5:2:30,30:10:100,200:50:600);
+ComparePmtrOptimizationInferredConnectivityOverR('./Inputs/pmtr_links.one','Results',RVector,221);
+ComparePmtrOptimizationToTransformationOverR('./Inputs/pmtr_links.one','Results',RVector,15,221);
+
+
+% Test for Transformation + Optimization on RWP RBase = 100
+RVector=horzcat(5:5:150,200:50:600);
+CompareConnectivityOverR('./Inputs/CSV4Original.one','./ResultsNew/CSV4Original2012312.one',RVector);
+CompareConnectivityWithBaselineOverR('./Inputs/CSV4Original.one','/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Inferred.one','./ResultsNew/CSV4Original2012312.one',RVector);
+CompareConnectivityWithBaselineOverR('./Inputs/CSV4Original.one','/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Inferred.one','./Results/Feeback3Values.one',RVector);
+CompareConnectivityWithBaselineOverR('./Inputs/CSV4Original.one','/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Inferred.one','./ResultsReal/CSV4Original2012325.one',RVector);
+CompareConnectivityWithBaselineOverR('./Inputs/CSV4Original.one','/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Inferred.one','./ResultsDeep/FeedBackCSV4Original2012327.one',RVector);
+CompareConnectivityWithBaselineOverR('./Inputs/CSV4Original.one','/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Inferred.one','./ResultsBreadth/ResultsBreadth.one',RVector);
+CompareConnectivityWithBaselineOverR('./Inputs/CSV4Original.one','/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Inferred.one','./ResultsReal/CSV4Original2012327.one',RVector);
+CompareConnectivityWithBaselineOverR('./Inputs/CSV4Original.one','/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Inferred.one','./ResultsReal/CSV4_10_1002012330.one',RVector);
+
+% Test for Transformation + Optimization on RWP RBase = 10
+RVector=horzcat(1:19,20:5:150,200:50:600);
+CompareConnectivityWithBaselineOverR('./Inputs/CSV4Original.one','./Results/CSV4Original2012330.one','./ResultsReal/CSV4_10_1002012330.one',RVector);
+CompareConnectivityWithBaselineOverR('./Inputs/RPGMScenario.one','./RPGM100/RPGM_R_10.one','./RPGM2Values/RPGMScenario2012330.one',RVector);
+
+
+% Test for Transformation + Optimization on RPGM
+RVector=horzcat(5:5:150,200:50:600);
+CompareConnectivityWithBaselineOverR('./Inputs/RPGMScenario.one','./RPGM100/RPGM_R_100.one','./RPGM2Values/RPGMScenario2012330.one',RVector);
+
+% DA Test
+RVector=horzcat(5:5:150,200:50:600);
+CompareConnectivityWithBaselineOverR('./Inputs/DA.one','./DA/DA_100.one','./DA/DA_10_100.one',RVector);
+
+
+% 3 Together
+RVector=horzcat(1:19,20:5:150,200:50:600);
+CompareConnectivitiesOverR(RVector,[],'./Inputs/CSV4Original.one','/home/alireza/workspace/MobilityProject/Java/examples/plausible/rwp1/CSV4Inferred.one','./Results/CSV4Original_R_10.one','./ResultsReal/CSV4_10_1002012330.one');
+
+% Best 2 Rs
+RVector=horzcat(1:19,20:5:150);
+CompareConnectivitiesOverR(RVector,[],0,'./Inputs/CSV4Original.one','./CSV4_100/CSV4Original_R_100.one','./Best2Rs/CSV4Original_R_10_140.one')
+CompareConnectivitiesOverR(RVector,[],0,'./Inputs/RPGMScenario.one','./RPGM100/RPGM_R_100.one','./Best2Rs/RPGMScenario_R_2_130.one')
+
+
+% Sample Call for 3D plot of 2Values
+RMaster = [10 25 50 75 100 120];
+RVector=horzcat(1:19,20:5:150);
+CompareBest2Rs3D('./Inputs/RPGMScenario.one', RMaster, RVector,'./RPGM100/RPGM_R_10.one','MultiRanges');
+CompareBest2RsHeatMap('./Inputs/RPGMScenario.one', RMaster, RVector,'./RPGM100/RPGM_R_10.one','MultiRanges');
+RMaster = [14 31 58 86 102 131];
+CompareBest2Rs3D('./Inputs/RPGMScenario.one', RMaster, RVector,'./RPGM100/RPGM_R_10.one','MultiRangesBestRPGM');
+
+
+% Sample calls for Percentile Results
+RVector=horzcat(1:19,20:5:150);
+Parameters = struct('mode',1)
+CompareConnectivitiesOverR(RVector,Parameters,'./Inputs/CSV4Original.one','./CSV4_100/CSV4Original_R_100.one','./CSV4_100/CSV4Original_R_10.one','./CSV4MultiRanges/CSV4Original_R_50_100.one','./CSV4MultiRanges/CSV4Original_R_10_100.one','./CSV4MultiRanges/CSV4OriginalR_40_70.one','./MultiRangesPercentile/CSV4Original_R_75_130.one')
+CompareConnectivitiesOverR(RVector,Parameters,'./Inputs/RPGMScenario.one','./RPGM100/RPGM_R_100.one','./RPGM100/RPGM_R_10.one','./RPGMMultiRanges/RPGMScenario_R_10_100.one','./RPGMMultiRanges/RPGMScenario_R_50_100.one','./MultiRangesPercentile/RPGMScenario_R_13_121.one')
+CompareConnectivitiesOverR(RVector,Parameters,'./Inputs/DA.one','./DA/DA_100.one','./DA/DA_10.one','./DA/DA_10_100.one','./MultiRangesPercentile/DA_R_54_112.one')

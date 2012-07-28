@@ -1,0 +1,1 @@
+function  Xopt = FminconLbfgs(R, CG, Xp, N, dim, Vm); 
